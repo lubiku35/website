@@ -1,0 +1,84 @@
+#whoami {
+    height: 100vh;
+    padding: 100px 0;
+    background: var(--light);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whoami main {
+    max-width: 1440px;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+#whoami main img {
+    max-width: 500px;
+}
+
+#whoami main .whoami-content {
+    height: 500px;
+    max-height: 500px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    color: var(--dark);
+    font-family: var(--rajdhani);
+}
+
+#whoami main .whoami-content #lines {
+    letter-spacing: 12px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#whoami main .whoami-content #description {
+    margin-top: 25px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#whoami main .whoami-content #description .bolder{
+    font-weight: 700;
+}
+
+#whoami  main .whoami-content .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
+
+    margin-top: 25px;
+}
+
+#whoami  main .whoami-content .socials a img {
+    max-width: 30px;
+    opacity: .5;
+    transition: opacity .25s ease-in-out;
+}
+
+#whoami  main .whoami-content .socials a img:hover {
+    opacity: 1;
+}
+
+#whoami  main .whoami-content #discover-more {
+    margin-top: 50px;
+    color: var(--dark);
+    font-family: var(--rajdhani);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 12px 25px;
+    border: 1px solid var(--dark);
+}

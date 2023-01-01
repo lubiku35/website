@@ -1,0 +1,63 @@
+
+/* ====== ORBITRON FONT ====== */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/* ====== RAJDHANI FONT ====== */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* ====== IMPORTED CSS ====== */
+@import url(./sections/landing.css);
+@import url(./sections/whoami.css);
+@import url(./sections/projects.css);
+@import url(./sections/contact.css);
+
+:root {
+
+    /* === FONTS === */
+    --orbitron: 'Orbitron', sans-serif;
+    --rajdhani: 'Rajdhani', sans-serif;
+
+    /* === COLORS === */
+    --light: #EEEDEF;
+    --dark: #191A19;
+    --red: #DE2B2D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: monospace;
+}
+
+body {
+    min-width: 320px;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+main {
+    display: block;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: var(--orbitron);
+    font-weight: 100;
+}
+
